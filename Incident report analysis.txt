@@ -1,0 +1,23 @@
+﻿Incident report analysis
+Instructions
+As you continue through this course, you may use this template to record your findings after completing an activity or to take notes on what you've learned about a specific tool or concept. You can also use this chart as a way to practice applying the NIST framework to different situations you encounter.
+Summary
+	My organization recently experienced a DDoS attack, which compromised the internal network for two hours until it was resolved. Organization’s network services suddenly stopped responding due to an incoming flood of ICMP packets. The incident management team responded by blocking incoming ICMP packets, stopping all non-critical network services offline, and restoring critical network services.
+	Identify
+	It was a DDoS attack with an incoming flood of ICMP packets and the internal network was compromised for two hours.
+	Protect
+	Given this situation where an incoming flood of ICMP packets were sent to the company’s network through an unconfigured firewall. 
+	Detect
+	We should implement a new firewall rule to limit the rate of incoming ICMP packets, source IP address verification on the firewall to check for spoofed IP addresses on incoming ICMP packets, network monitoring software to detect abnormal traffic patterns.
+	Respond
+	We can use the network’s logs and traffic to observe and analyze abnormal patterns.  And as a recovery process we should have some backups for our network.
+	Recover
+	A new updated firewall with a strict set of rules, IP address verification on the firewall, and intense network monitoring through a software that detect abnormal traffic patterns and gives us alerts.
+	
+
+________________
+
+
+
+
+Reflections/Notes:
